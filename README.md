@@ -19,6 +19,8 @@ Sybaris 2.1 or equivalent.
 
 Installation:
 
+Donwload the archive from [relase page](https://github.com/Neerhom/COM3D2.FaceTypePatcher/releases)
+
 Put contents of Sybaris folder inside Sybaris folder.
 
 you can bug me via twitter https://twitter.com/Neerhom_mod for any questions
