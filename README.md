@@ -19,6 +19,6 @@ Sybaris 2.1 or equivalent.
 
 Installation:
 
-Put contents of Sybaris forlder inside Sybaris folder.
+Put contents of Sybaris folder inside Sybaris folder.
 
 you can bug me via twitter https://twitter.com/Neerhom_mod for any questions
