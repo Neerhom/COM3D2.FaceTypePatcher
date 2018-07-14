@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using Mono.Cecil;
 using Mono.Cecil.Inject;
 using System.IO;
@@ -21,9 +21,9 @@ namespace COM3D2.FaceType.Patcher
             MethodDefinition ChangeTex = TBody.GetMethod("ChangeTex");
 
             MethodDefinition FaceTypeHook = hookAssembly.MainModule.GetType($"{HOOK_NAME}.Hooks").GetMethod("FaceTypeHook");
-            FieldDefinition goSlot = TBody.GetField("goSlot");
             
-            ChangeTex.InjectWith(FaceTypeHook,  flags: InjectFlags.PassInvokingInstance | InjectFlags.PassFields | InjectFlags.PassParametersRef, typeFields: new [] {goSlot });
+            
+            ChangeTex.InjectWith(FaceTypeHook,  flags: InjectFlags.PassInvokingInstance |  InjectFlags.PassParametersRef);
 
                        
 
