@@ -1,7 +1,7 @@
 # COM3D2.FaceTypePatcher
 A Sybaris Patcher that enables creating of facemods that can work with DLC skins
 
-**Note** While it's primeraly targeted at COM3D2 it is compatible with CM3D2, because the affect code is the same for both games.
+**Note** Despite the name, it is compatible with both COM3D2 & CM3D2, because the affect code is the same for both games.
 
 The way that COM3D2's default skin menu's load face texture onto the model is that they check face modelname and add a string to it, which results in texture filename that the game is searching for. This means that a face mods must provide face textures for ALL game's skins, including DLC's so as to avoid any errors. This of cource is very inconvenient as this significantly increases mod size and makes support for DLC skins kinda iffy, as this can mean distribution of unmodified textures in order to ensure no errors for the end user.
 
