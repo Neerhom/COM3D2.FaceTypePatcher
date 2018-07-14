@@ -7,12 +7,7 @@ The way that COM3D2's default skin menu's load face texture onto the model is th
 
 The FaceTypePatcher aims to avoid all of this noncense, by enabling use of textures that game already has.
 
-The way patcher operates is that it reads the model filename and searches for **facetype** in the filename and if filename has it, it then looks for 3 characters after the **facetype** and dervies which texture of game's face to load.
-
-For instance, the game has a face model called  **face004.model** and a set of textures for it called face004*.tex.
-So if you want your face mod to use those textures for default and DLC skins then modelfilename must contain **facetype** and the next 3 characters must be **004** because three numbers after **face** is what considered to be a facetype.
-
-So in this case you model name must contain **facetype004** for it to use textures of face004.model, when a default skin menu tries to load a texture on it. For instance yor model filename can be **facetype004myface.model** or **myfacefacetype004.model** both cases are valid and will result in your face model to use skin texture of face004.model
+A more detailed explanation of how patcher works how to adapt faces to work with it described on the [wiki pahge]https://github.com/Neerhom/COM3D2.FaceTypePatcher/wiki/Making-face-mods-for-FaceTypePatcher
 
 Pre-requisites:
 
