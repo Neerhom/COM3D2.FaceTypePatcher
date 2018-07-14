@@ -7,7 +7,7 @@ The way that COM3D2's default skin menu's load face texture onto the model is th
 
 The FaceTypePatcher aims to avoid all of this noncense, by enabling use of textures that game already has.
 
-A more detailed explanation of how patcher works how to adapt faces to work with it described on the [wiki pahge]https://github.com/Neerhom/COM3D2.FaceTypePatcher/wiki/Making-face-mods-for-FaceTypePatcher
+A more detailed explanation of how patcher works how to adapt faces to work with it described on the [wiki pahge](https://github.com/Neerhom/COM3D2.FaceTypePatcher/wiki/Making-face-mods-for-FaceTypePatcher)
 
 Pre-requisites:
 
