@@ -1,4 +1,4 @@
-
+﻿
 using System.Collections.Generic;
 using System.IO;
 namespace COM3D2.FaceType.Managed
@@ -6,7 +6,7 @@ namespace COM3D2.FaceType.Managed
  public static   class Hooks
     {
 
-        public static void FaceTypeHook ( TBody self, ref string slotname, ref int matno,
+        public static void FaceTypeHook ( TBody self, ref string slotname, ref int subPropNo, ref int matno,
             ref string prop_name, ref string filename, ref Dictionary<string, byte[]> dicModTexData, ref MaidParts.PARTS_COLOR f_ePartsColorId )
           {
             int num = (int)TBody.hashSlotName[slotname];
